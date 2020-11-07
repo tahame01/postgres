@@ -1,0 +1,13 @@
+install postgres
+add path variable 
+initdb postgres 
+psql -U postgres #-----to enter postgresql shell
+\list to see the existing databases
+\q to exit from the database 
+CREATE DATABASE <database name>;
+\c <database name> #------To enter in the database 
+virtualenv <foldername>
+Scripts\activate
+\c <database name>
+\dt #to see the relation
+\d <table name>
